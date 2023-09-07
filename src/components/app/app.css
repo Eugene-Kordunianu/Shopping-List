@@ -1,0 +1,115 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: monospace;
+   background-image: url("../../img/planet-1702788.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   min-height: 100vh;
+}
+/*   Стилі для кнопки "+" */
+.btn-plus {
+   font-size: 1.5rem;
+   border: none;
+   background-color: #ffffff87;
+   border-radius: 8px;
+   width: 3rem;
+   height: 3rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 1rem auto;
+   cursor: pointer;
+}
+.btn-plus:hover {
+   background-color: #ffffffcf;
+}
+/* Стилі для поля введення тексту та кнопок "Додати" та "Зберегти" */
+.box-inp-btn {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 1rem 0rem;
+}
+
+.box-inp-btn input {
+   height: 2rem;
+   margin-right: 1rem;
+   border-radius: 8px;
+   border: 1px solid #ced4da;
+   padding: 0.5rem;
+   font-size: 1rem;
+}
+
+.box-inp-btn button {
+   border: none;
+   width: 8rem;
+   height: 3rem;
+   background-color: #1d1c6d5f;
+   color: #ffffff;
+   text-align: center;
+   border-radius: 8px;
+   font-size: 1rem;
+   cursor: pointer;
+}
+.box-inp-btn button:hover {
+   background-color: #1d1c6d95;
+}
+/* Стилі для таблиці елементів */
+.table {
+   border-collapse: collapse;
+   margin: 0 auto;
+   width: 100%;
+   font-size: 1.2rem;
+   letter-spacing: 0.5px;
+}
+
+.thead {
+   background-color: #053c5f;
+   color: #fff;
+}
+
+.thead__items th {
+   padding: 0.5rem 1rem;
+   text-align: center;
+}
+
+.tbody__items td {
+   padding: 0.5rem 1rem;
+   text-align: center;
+   border-top: 1px solid #ced4da;
+   color: #fff;
+   font-weight: 500;
+}
+
+.tbody__items {
+}
+.tbody__items:hover {
+   background-color: #27155965;
+}
+
+.tbody__items td:first-child {
+   font-weight: bold;
+   border-right: 1px solid #ced4da;
+}
+
+.tbody__items td:last-child button {
+   background-color: transparent;
+}
+
+.tbody__btn {
+   border: none;
+   background-color: transparent;
+   padding: 0.5rem 1rem;
+   border-radius: 8px;
+   font-size: 1.2rem;
+   cursor: pointer;
+   transform: scale(1.1);
+   transition: all .3s ease;
+}
+
+.tbody__btn:hover {
+   transform: scale(1.3);
+}
